@@ -36,7 +36,7 @@ public class LoginVerify extends HttpServlet {
 		String pwd=request.getParameter("password");
 		if(uname.equals("admin") && pwd.equals("admin")) {
 			System.out.println("les identifiants sont corrects");
-			System.out.println("Bravo!!!");
+			System.out.println("Bravo");
 		}else
 			System.out.println("Erreur dans les identifiantsn refaites");
 	}

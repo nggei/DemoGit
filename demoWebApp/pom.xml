@@ -43,32 +43,7 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    
-    <!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
-
-
-	<dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-core</artifactId>
-        <version>3.3.3</version>
-        <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-junit-jupiter</artifactId>
-        <version>3.3.3</version>
-        <scope>test</scope>
-    </dependency>
-    
-    <dependency>
-        <groupId>io.wcm</groupId>
-        <artifactId>io.wcm.testing.aem-mock.junit5</artifactId>
-        <!-- Prefer the latest version of AEM Mock Junit5 dependency -->
-        <version>3.0.2</version>
-        <scope>test</scope>
-    </dependency> 
   </dependencies>
-  
 
   <build>
     <finalName>demoWebApp</finalName>
